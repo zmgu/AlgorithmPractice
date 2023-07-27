@@ -1,4 +1,4 @@
-# 효율성 통과를 못했던 처음 코드
+# 효율성 테스트를 통과하지 못했던 처음 코드
 def solution(people, limit):
     answer = 0
     people.sort()
@@ -13,7 +13,7 @@ def solution(people, limit):
         answer +=1
     return answer
 
-# pop을 사용하지 말아야 효율성을 통과할 것 같아 새롭게 풀이한 코드
+# pop을 사용하면 효율성 테스트를 통과하지 못할 것 같아 새롭게 풀이한 코드
 def solution(people, limit):
     answer = 0
     people.sort()
