@@ -1,8 +1,8 @@
 def solution(id_list, report, k):
     answer = [0]*len(id_list)
     
-    report = set(report)
-    report = list(report)
+    report = list(set(report))
+
     arr = [[''] for i in range(len(id_list))]
     
     for i in range(0, len(report)):            
