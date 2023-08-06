@@ -20,7 +20,6 @@ def solution(str1, str2):
                 ck = str2[i-1:i+1]
             arr2.append(ck)
 
-    
     if len(arr2) >= len(arr1):
         temp = arr1
         arr1 = arr2
