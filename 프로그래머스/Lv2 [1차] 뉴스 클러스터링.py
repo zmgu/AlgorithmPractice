@@ -2,9 +2,9 @@ def solution(str1, str2):
     answer = 0
 
     str1, str2 = str1.lower() , str2.lower()
-
     arr1 = []
     arr2 = []
+    
     for i in range(1,len(str1)):
         if str1[i-1].isalpha() == True and str1[i].isalpha() == True:
             if i == len(str1)-1:
